@@ -1,0 +1,53 @@
+.offboarding-page {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+}
+
+.page-header {
+    margin-bottom: var(--spacing-md);
+}
+
+.page-title {
+    font-size: var(--font-size-3xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-neutral-900);
+    margin-bottom: var(--spacing-xs);
+}
+
+.page-subtitle {
+    font-size: var(--font-size-base);
+    color: var(--color-neutral-600);
+}
+
+.warning-banner {
+    display: flex;
+    gap: var(--spacing-md);
+    padding: var(--spacing-lg);
+    background: linear-gradient(135deg, rgba(255, 193, 7, 0.1), rgba(255, 193, 7, 0.05));
+    border: 1px solid rgba(255, 193, 7, 0.3);
+    border-left: 4px solid var(--color-warning);
+    border-radius: var(--radius-md);
+}
+
+.warning-banner-icon {
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.warning-banner-content {
+    flex: 1;
+}
+
+.warning-banner-content strong {
+    display: block;
+    color: var(--color-neutral-900);
+    margin-bottom: var(--spacing-xs);
+}
+
+.warning-banner-content p {
+    margin: 0;
+    font-size: var(--font-size-sm);
+    color: var(--color-neutral-700);
+    line-height: 1.6;
+}
